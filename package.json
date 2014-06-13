@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/getmetorajesh/node_RealTimeChat/issues"
   },
-  "homepage": "https://github.com/getmetorajesh/node_RealTimeChat"
+  "homepage": "https://github.com/getmetorajesh/node_RealTimeChat",
+  "dependencies": {
+    "express": "^4.4.3",
+    "jade": "^1.3.1",
+    "socket.io": "latest"
+  }
 }

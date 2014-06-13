@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title = "Real time chat"
+        script(src= '/chat.js')
+        script(src='/socket.io/socket.io.js')
+    body
+        #content(style='width:550px; height:400px; margin:0 0 20px 0; overflow-y:scroll; border: 1px solid #ddd;')
+        .controls
+            | Name:
+            input(type="text", name="name", id="name")
+            br
+            | Message:
+            input(type="text", name="field", id="field")
+            input(type="submit", value="send", id="send")
+            // input#field(style='width:222px')
