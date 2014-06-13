@@ -1,0 +1,19 @@
+{
+  "name": "real_time_chat",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/getmetorajesh/node_RealTimeChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getmetorajesh/node_RealTimeChat/issues"
+  },
+  "homepage": "https://github.com/getmetorajesh/node_RealTimeChat"
+}
