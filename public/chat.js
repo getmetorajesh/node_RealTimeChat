@@ -16,14 +16,27 @@ window.onload = function() {
                 html += messages[i].message + '<br />';
             }
             content.innerHTML = html;
+            content.scrollTop = content.scrollHeight; // Won't work on ie7
         } else {
             console.log("There is a problem:", data);
         }
     });
 
+    //sendButton.onclick = sendMessage = function() {
     sendButton.onclick = function() {
         var text = field.value;
         socket.emit('send', { message: text, username:name.value });
+        field.value = "";
     };
 
 }
+
+/*
+$(document).ready(function() {
+    $("#field").keyup(function(e) {
+        if(e.keyCode == 13) {
+            sendMessage();
+        }
+    });
+});
+*/
